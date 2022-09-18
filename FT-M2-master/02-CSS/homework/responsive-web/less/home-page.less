@@ -91,10 +91,6 @@
         cursor: pointer;
         width: 100px;
         display: inline-block;
-
-      //   @media @phone {
-      //     width: 100%;
-      // }
       
       &:hover {
         background-color: @btn-bg-color;
@@ -118,6 +114,11 @@
         border-radius: 10px;
       }
 
+      @media @phone {
+        width: 100%;
+        margin-right: 3%;
+        margin-left: 3%;
+      }
     }
   }
 }
