@@ -1,0 +1,56 @@
+.input {
+    width: 200px;
+    height: 35px;
+    border-radius: 5px;
+    border: 2px solid rgb(30,205,151);
+    
+}
+.buscador{
+    position: relative;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    width: 350px;
+    height:35px;
+    border: 2px solid rgb(30,205,151);
+    border-radius: 5px;
+    background-color: rgb(94, 86, 86);
+    margin: auto;
+    padding: 5px;
+}
+.searchButton {
+    position: relative;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    width: 100px;
+    height: 30px;
+    cursor: pointer;
+    margin:  auto;
+    border: 2px solid rgb(30,205,151);
+    -webkit-border-radius: 15px;
+    border-radius: 10px;
+    color: rgb(30, 205, 151);
+    background:  rgb(94, 86, 86);
+    -webkit-transition: background-color 0.3s cubic-bezier(0, 0, 0, 0), color 0.3s cubic-bezier(0, 0, 0, 0), width 0.3s cubic-bezier(0, 0, 0, 0), border-width 0.3s cubic-bezier(0, 0, 0, 0), border-color 0.3s cubic-bezier(0, 0, 0, 0);
+    -moz-transition: background-color 0.3s cubic-bezier(0, 0, 0, 0), color 0.3s cubic-bezier(0, 0, 0, 0), width 0.3s cubic-bezier(0, 0, 0, 0), border-width 0.3s cubic-bezier(0, 0, 0, 0), border-color 0.3s cubic-bezier(0, 0, 0, 0);
+    -o-transition: background-color 0.3s cubic-bezier(0, 0, 0, 0), color 0.3s cubic-bezier(0, 0, 0, 0), width 0.3s cubic-bezier(0, 0, 0, 0), border-width 0.3s cubic-bezier(0, 0, 0, 0), border-color 0.3s cubic-bezier(0, 0, 0, 0);
+    transition: background-color 0.3s cubic-bezier(0, 0, 0, 0), color 0.3s cubic-bezier(0, 0, 0, 0), width 0.3s cubic-bezier(0, 0, 0, 0), border-width 0.3s cubic-bezier(0, 0, 0, 0), border-color 0.3s cubic-bezier(0, 0, 0, 0);
+}
+    
+.searchButton:hover {
+    width: 100px;
+    -webkit-border-radius: 20px;
+    border-radius: 20px;
+    color: rgba(255,255,255,1);
+    background: rgb(30, 205, 151);
+      }
+      
+.searchButton:active {
+    border: 2px solid rgba(33,224,163,1);
+    background: rgba(33,224,163,1);
+    -webkit-transition: none;
+    -moz-transition: none;
+    -o-transition: none;
+    transition: none;
+      }

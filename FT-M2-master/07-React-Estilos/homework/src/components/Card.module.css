@@ -1,0 +1,50 @@
+.mainContainer {
+
+    position: relative;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #777;
+    padding:  20px;
+    margin: auto;
+    width: 400px;
+    height: 250px;
+    background-color:rgb(211, 163, 101);
+    top: 50px;
+}
+
+.button {
+    background-color: rgb(164, 11, 11);
+    border: none;
+    color: white;
+    padding: 4px 10px;
+    text-align: auto;
+    text-decoration: none;
+    position: absolute;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+    right: 20px;
+}
+
+.column {
+    column-count: 3;
+    column-gap: 40px;
+    column-rule-color: lightblue;
+    column-rule: 1px solid lightblue;
+
+}
+.max {
+    color: darkred;
+    font: normal 20px/70px "Advent Pro", Helvetica, sans-serif;
+}
+
+.min {
+    color: darkcyan;
+    font: normal 20px/70px "Advent Pro", Helvetica, sans-serif;
+}
+
+/* .img {
+    position: absolute;
+    right: 50px;
+} */

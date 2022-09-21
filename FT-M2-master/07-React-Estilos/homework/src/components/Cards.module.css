@@ -1,0 +1,8 @@
+.multiCards {
+    
+    margin: 50px;
+    display: flex;
+    flex-direction: row;
+    grid-auto-columns: auto;
+    
+}
